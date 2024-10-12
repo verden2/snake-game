@@ -7,7 +7,7 @@ document.getElementById('login-form').addEventListener('submit', async function 
     // Проверяем логин и пароль
     if (username === 'root' && password === 'toor') {
         // Если логин и пароль правильные, перенаправляем на index.html
-        window.location.href = "./snake.html"; 
+        window.location.href = "./button.html"; 
     }
     // Если логин или пароль неверные, ничего не происходит
 });
